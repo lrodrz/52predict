@@ -1,5 +1,7 @@
 import predict
 
-#predict.HiLo()
+predict.HiLo()
 
-predict.Concat()
+#predict.Concat()
+
+#predict.CardRandomizer()

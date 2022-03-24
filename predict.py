@@ -82,6 +82,13 @@ def HiLo():
     count_fi.close()
     
 
+def CardRandomizer():
+    cards = ['ace','king','queen','jack','10','9','8','7','6','5','4','3','2']
+    is_this_your_card = np.random.choice(cards,size=1000)
+    with open('cards.csv','w') as fi_gen_counts:
+        writer = csv.writer(fi_gen_counts)
+        writer.writerow(is_this_your_card)
+        
 
     
 
