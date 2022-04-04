@@ -2,15 +2,11 @@
 a card counting algorithm with machine learning integration
 
 
-<style>
-    .imgcontainer{
-      text-align: center;  
-    }
-</style>
 
-<div class="imgcontainer">
+
+
 <img src="./etc/titlepic.jpg" title="52predict" width="590" height="380"></a>
-</div>
+
 
 
 ## Setup
